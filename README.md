@@ -1,6 +1,6 @@
 ## Minify HTML for Laravel 4
 
-[![Build Status](https://travis-ci.org/damianromanowski/minifyhtml.png?branch=master)](https://travis-ci.org/damianromanowski/minifyhtml)
+[![Latest Stable Version](https://poser.pugx.org/damianromanowski/minifyhtml/v/stable.png)](https://packagist.org/packages/damianromanowski/minifyhtml) [![Total Downloads](https://poser.pugx.org/damianromanowski/minifyhtml/downloads.png)](https://packagist.org/packages/damianromanowski/minifyhtml) [![Build Status](https://travis-ci.org/damianromanowski/minifyhtml.png?branch=master)](https://travis-ci.org/damianromanowski/minifyhtml)
 
 Minify HTML provides a no-frills way of quickly compressing your HTML output
 
@@ -29,6 +29,17 @@ Once Minify HTML is installed you need to register the service provider with the
 )
 ~~~
 
-### Documentation
+### Configuration
 
-Coming soon!
+Minify HTML provides easy configuration options compressing your output.
+It comes with a configuration file that you can edit at your leisure.
+
+You'll need to run `php artisan config:publish damianromanowski/minifyhtml` to publish the configuration to your application.
+
+#### Step 1: Enable the compressor
+~~~
+'enabled' => true,
+~~~
+
+And you're all done!
+
