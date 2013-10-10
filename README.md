@@ -1,5 +1,7 @@
 ## Minify HTML for Laravel 4
 
+[![Build Status](https://travis-ci.org/damianromanowski/minifyhtml.png?branch=master)](https://travis-ci.org/damianromanowski/minifyhtml)
+
 Minify HTML provides a no-frills way of quickly compressing your HTML output
 
 ### Installation
